@@ -14,13 +14,13 @@ public class Q04_MultiplesOf5 {
         System.out.println("Multiples of 5 are: ");
 
         //logic and Output
-        int i = 1;
+        int i = n;
         do {
             if(i % 5 == 0) {
                 System.out.println(i);
             } 
-            i++;
-        }while(i <= n);
+            i--;
+        }while(i >= 1);
 
         sc.close();
     }
